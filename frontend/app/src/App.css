@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+div.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.comp {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  width: 100%;
+}
+
+div.res {
+  margin-top: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  box-shadow: #000000 0px 0px 10px;
+  cursor: pointer;
+}
+
+div.res:hover {
+  box-shadow: #2a2a2a 0px 0px 15px;
+}
+
+h1.heading {
+  text-align: center;
+  margin-bottom: 4rem;
+}

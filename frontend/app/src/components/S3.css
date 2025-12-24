@@ -1,0 +1,10 @@
+div.box {
+    border: 1px solid #000000;
+    padding: 1rem;
+    width: 50%;
+    box-shadow: #000000 0px 0px 10px;
+}
+
+h2 {
+    text-align: center;
+}

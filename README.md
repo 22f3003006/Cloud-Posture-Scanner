@@ -2,29 +2,27 @@
 
 Lightweight cloud posture tool that connects to an AWS account and returns the number of EC2 instances, S3 buckets and CIS Results!
 
-## The tool:
-
-- Discover Resources:
+## Discover Resources:
 1) List all EC2 instances with: instance ID, type, region, public IP, and
 associated security groups.
 2) List all S3 buckets with: bucket name, region, encryption status, and
 access policy (public/private).
 
-- Run CIS AWS Benchmark Checks:
+## Run CIS AWS Benchmark Checks:
 1) No S3 buckets publicly accessible.
 2) All S3 buckets encrypted.
 3) IAM root account has MFA enabled.
 4) CloudTrail is enabled.
 5) Security groups are not open to 0.0.0.0/0 for SSH or RDP.
 
-- Store results in DynamoDB
+## Store results in DynamoDB
 
-- Expose REST APIs:
+## Expose REST APIs:
 1) /instances
 2) /buckets
 3) /cis-results
 
-- Frontend Dashboard:
+## Frontend Dashboard:
 1) Display EC2 and S3 data in tables.
 2) Show CIS check results (pass/fail with evidence).
 
